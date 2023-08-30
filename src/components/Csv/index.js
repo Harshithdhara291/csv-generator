@@ -79,7 +79,7 @@ const CsvGenerator = () => {
 
   return (
     <div className="main-container">
-        <div>
+        <div className='form-container'>
       <h1>Employee Management</h1>
       <form onSubmit={addEmployee} >
         <input
