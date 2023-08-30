@@ -25,7 +25,7 @@ input {
     margin: 1rem 0 2rem 0;
 }
 
-button {
+.add-employess-btn {
     display: block;
     background-color: #4F46E5;
     color: #ffffff;
@@ -66,6 +66,12 @@ button {
 }
 .employee{
     margin: 1rem 0 0 0;
+    background-color: rgb(221, 227, 231);
+    border: 2px solid #a0daec;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 .details{
     margin-right: 2rem;
@@ -73,4 +79,17 @@ button {
     font-size: 1rem;
     font-style: italic;
     font-weight: 700;
+}
+.delete-icon{
+    border: none;
+    background-color: rgb(221, 227, 231);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.not-found{
+    background-color: rgb(221, 227, 231);
+    border: 2px solid #a0daec;
+    border-radius: 1rem;
+    padding: 0rem 1rem 0 1rem;
 }
