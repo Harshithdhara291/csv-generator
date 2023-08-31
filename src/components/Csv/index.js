@@ -77,6 +77,8 @@ const CsvGenerator = () => {
       }
   };
 
+  console.log(employees)
+
   return (
     <div className="main-container">
         <div className='form-container'>
@@ -103,7 +105,7 @@ const CsvGenerator = () => {
           onChange={(e) => setJobTitle(e.target.value)}
           required
         />
-        <button type="submit" className='add-employess-btn'>Add Employee</button>
+        <button type="submit" className='add-employes-btn'>Add Employee</button>
       </form>
       </div>
       <div className='employees-list' >
